@@ -1,0 +1,77 @@
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: aquamarine;
+    height: 50px;;
+}
+
+    menu {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    menu a {
+        padding-right: 40px;
+        font: bold 16px/50px Arial;
+        text-decoration: none;
+    }
+
+    menu a:hover {
+        color: rgb(44, 44, 12);
+    }
+main {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 30px;;
+    
+}
+aside{
+    width: 300px;
+    
+}
+    img{
+       width: 100%;
+        border: 3px solid gray;
+    }
+    aside a{
+        font-family: 'Roboto', sans-serif;
+        color: coral;
+        
+    }
+    .material-icons {
+        color: gray;
+        padding: 10px 20px 10px 0px;
+        
+
+    }
+section {
+    padding-left: 40px;;
+}
+h2 {
+    margin-bottom: 30px;
+    border-left: 6px solid rebeccapurple;
+    padding-left: 10px;
+    
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+    text-align: justify;
+}
+
+footer {
+    
+    border-top: 1px dotted gray;
+    text-align: center;
+    height: 50px;
+}
+
+   footer a{
+       color: rgb(110, 110, 110);
+   }
+    
